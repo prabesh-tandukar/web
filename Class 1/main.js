@@ -88,8 +88,8 @@
 // sum(1, 3, displayPassiveResult);
 
 function calculateArithmetic(a, b, arithmeticFinalFunction) {
-  const ans = arithmeticFinalFunction(a, b);
-  return ans;
+  const value = arithmeticFinalFunction(a, b);
+  return value;
 }
 
 function sum(a, b) {
