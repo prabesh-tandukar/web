@@ -87,6 +87,7 @@
 // // const ans = sum(1, 2);
 // sum(1, 3, displayPassiveResult);
 //
+//
 
 function calculateArithmetic(a, b, arithmeticFinalFunction) {
   const value = arithmeticFinalFunction(a, b);
