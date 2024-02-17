@@ -12,4 +12,5 @@ const writeStream = fs.createWriteStream("./docs/blog4.txt");
 //   writeStream.write(chunk);
 // });
 
-//
+//piping
+readStream.pipe(writeStream);

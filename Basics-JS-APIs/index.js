@@ -63,3 +63,20 @@ function splitString(str, separator) {
 
 splitString("Hello Word", " "); //here the delimitor is a space so the result will be a array with the element hello and word
 console.log("Hieveryone".split()); // no delimitor the result is the whole string as a single element of the array
+
+//Trim: trims out the extra spaces at the beginning and at the end of a string
+const value = "       prabesh      ";
+console.log(value);
+console.log(value.trim());
+function trimString(str) {
+  console.log("Original string:", str);
+  console.log("After trim: ", str.trim());
+}
+trimString(value);
+
+//to upper: takes the string to upper case
+//
+function toUpperCase(str) {
+  console.log();
+  console.log("Original String:", str.toUpperCase());
+}
