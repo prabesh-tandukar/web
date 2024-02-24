@@ -65,6 +65,7 @@ splitString("Hello Word", " "); //here the delimitor is a space so the result wi
 console.log("Hieveryone".split()); // no delimitor the result is the whole string as a single element of the array
 
 //Trim: trims out the extra spaces at the beginning and at the end of a string
+//Does not trim out the extra space in between
 const value = "       prabesh      ";
 console.log(value);
 console.log(value.trim());
@@ -77,6 +78,14 @@ trimString(value);
 //to upper: takes the string to upper case
 //
 function toUpperCase(str) {
-  console.log();
-  console.log("Original String:", str.toUpperCase());
+  console.log("Original String:", str);
+  console.log("After UpperCase:", str.toUpperCase());
 }
+
+function toLowerCase(str) {
+  console.log("Original string:", str);
+  console.log("After LowerCase:", str.toLowerCase());
+}
+
+toUpperCase("this will be big");
+toLowerCase("HI MY");
